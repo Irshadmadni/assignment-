@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Result Card</title>
+  </head>
+  <body style="background-color: rgb(140, 219, 60);">
+    <h1>
+      Result Card:
+    </h1>
+    <h3 style="text-align: center;">Mark Sheet of 2077</h3>
+    <table border="4px" table align="center" spacing="4px" padding="4px" bordercolor="brown">
+      <tr>
+        <th rowspan="4">S.No.</th>
+        <th rowspan="4">Name</th>
+        <th colspan="6">Subject</th>
+        <th rowspan="4">Total</th>
+      </tr>
+      <tr>
+      <th colspan="2">Science</th>
+      <th colspan="2">Social</th>
+      <th colspan="2">computer</th>
+      </tr>
+      <tr>
+        <th colspan="6">Marks</th>
+      </tr>
+      <tr>
+        <th>Internal</th>
+        <th>Final</th>
+        <th>Internal</th>
+        <th>Final</th>
+        <th>Internal</th>
+        <th>Final</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Bikash</td>
+        <td>10</td>
+        <td>12</td>
+        <td>43</td>
+        <td>43</td>
+        <td>43</td>
+        <td>43</td>
+        <td>50</td>
+      <tr>
+        <td>2</td>
+        <td>Bikesh</td>
+        <td>10</td>
+        <td>12</td>
+        <td>43</td>
+        <td>43</td>
+        <td>43</td>
+        <td>43</td>
+        <td>50</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Anivash</td>
+        <td>10</td>
+        <td>12</td>
+        <td>43</td>
+        <td>43</td>
+        <td>43</td>
+        <td>43</td>
+        <td>50</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Ram</td>
+        <td>10</td>
+        <td>12</td>
+        <td>43</td>
+        <td>43</td>
+        <td>43</td>
+        <td>43</td>
+        <td>50</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Abdul</td>
+        <td>10</td>
+        <td>12</td>
+        <td>43</td>
+        <td>43</td>
+        <td>43</td>
+        <td>43</td>
+        <td>50</td>
+      </tr>
+      <tr>
+        <th colspan="9"> Total</th>
+      </tr>
+    </table>
+    <h1>Nested Table:</h1>
+    <table border="4" style="border-color: brown; padding: 4px; border-spacing: 6px;" table align="center">
+      <tr>
+        <th>Header 1</th>
+        <th>Header 2</th>
+        <th>Header 3</th>
+        <th>Header 4</th>
+      </tr>
+      <tr>
+        <td>Row 2 -Item 1</td>
+        <td>Row 2 -Item 2</td>
+        <td rowspan="2">Row 2 Nested Table 1 
+          <br>
+          <br>
+          <table border="4" style="border-color: rgb(16, 1, 1); padding: 4px; border-spacing: 6px;" table align="center">
+            <tr>
+              <th>Row 1 Header</th>
+              <td>Item</td>
+            </tr>
+            <tr>
+              <th>Row 2 Header</th>
+              <td>Item</td>
+            </tr>
+            <tr>
+              <th>Row 3 Header</th>
+              <td>Item</td>
+            </tr>
+          </table>
+        </td>
+        <td>Row 2 Item 4 <br>A Second line</td>
+      </tr>
+      <tr>
+         <td>Row 3 Nested Table2
+           <br>
+           <br>
+          <table border="4" style="border-color: rgb(251, 6, 18); padding: 4px; border-spacing: 6px;" table align="center">
+            <tr>
+              <th>Row 1 Header</th>
+              <td>Item</td>
+            </tr>
+            <tr>
+              <th>Row 2 Header</th>
+              <td>Item</td>
+            </tr>
+          </table>
+         </td>
+         <td>Row 3 Item 2</td>
+         <td rowspan="2">Row 3 Item 3</td>
+      </tr>
+      <tr>
+        <td>Row 4 Item 1</td>
+        <td>Row 4 Item 2</td>
+        <td>Row 4 Item 3</td>
+      </tr>
+      <tr>
+        <td colspan="4">Row 5 last Row of outer Table</td>
+      </tr>
+    </table>
+    <h1>Seminar Table:</h1>
+    <table border="4px" style="border-color: black; padding: 2px; border-spacing: 6px;" table align="center">
+      <tr>
+        <th rowspan="3" style="font-variant: inherit;">Day</th>
+        <th colspan="5">Seminar</th>
+      </tr>
+      <tr>
+        <th colspan="2">Schedule</th>
+        <th colspan="3" rowspan="2">Topic</th>
+      </tr>
+      <tr>
+        <th>Begin</th>
+        <th>End</th>
+      </tr>
+      <tr>
+        <td rowspan="2">Monday</td>
+        <td rowspan="2">08:00 am</td>
+        <td rowspan="2">05:00 am</td>
+        <td colspan="3">Introduction to XML</td>
+      </tr>
+      <tr>
+        <td colspan="3">Validity DTD and Relax NG</td>
+      </tr>
+      <tr>
+        <td rowspan="3">Tuesday</td>
+        <td>08:00 am</td>
+        <td>05:00 pm</td>
+        <td rowspan="2" colspan="3" style="text-align: center;">XP Path</td>
+        </tr>
+      <tr>
+        <td>11:00 am</td>
+        <td>02:00 pm</td>
+      </tr>
+      <tr>
+        <td>02:00 pm</td>
+        <td>05:00 pm</td>
+        <td colspan="3"> XSL Transformations</td>
+      </tr>
+      <tr>
+        <td>Wednesday</td>
+        <td>08:00 am</td>
+        <td>12:00 pm</td>
+        <td>XSL formating Objects</td>
+      </tr>
+    </table>
+    <h2>Athletics day time table:</h2>
+    <table border="4px" style="border-color: black; padding: 2px; border-spacing: 6px;" table align="center">
+      <tr>
+        <th colspan="6">Athletics day time table</th>
+      </tr>
+      <tr>
+        <th>Area</th>
+        <th>10am-11am</th>
+        <th>11am-12pm</th>
+        <th>12pm-1pm</th>
+        <th>1pm-2pm</th>
+        <th>2pm-3pm</th>
+      </tr>
+      <tr>
+        <th rowspan="2">Track</th>
+        <td>400m</td>
+        <td>200m</td>
+        <th rowspan="3">Lunch</th>
+        <td>800m</td>
+        <td>100m</td>
+      </tr>
+      <tr>
+        <td>Hurdles</td>
+        <td>1500m</td>
+        <td>free</td>
+        <td>80m</td>
+      </tr>
+      <tr>
+        <th>Field</th>
+        <td>Discus</td>
+        <td>Javelin</td>
+        <td>shot put</td>
+        <td>Hammer throw</td>
+      </tr>
+    </table>
+  </body>
+</html>
